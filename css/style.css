@@ -1,98 +1,244 @@
 
 .navbar1{
    background-color: white;
+   margin-bottom: -1em;
+   padding-left: 2em;
+   margin-left: -2em;
+   margin-right: -1em;
 }
+
 .featuredM{
    border-left: solid 1px #E2E2E2;
    border-right: solid 1px #E2E2E2;
 }
+
 .feat{
    color: black;
    float: right;
    margin-left: 0px;
    padding-right: 5px;
 }
+
 .pad{
    padding-left: 0px;
    padding-right: 0px;
 }
+
 .navbar2{
    background-color: #CA0813;
+   padding-left: 2em;
+   margin-left: -2em;
+   margin-right: -1em;
 }
-/*
-.highlights{
 
-}*/
+.navbar3{
+      background-color: #EEEEEE;
+      margin-left: -2em;
+      margin-right: -1em;
+}
+
+.highlights{
+   width: 100%;
+}
+
 .logo{
    padding-left: 5%;
+   width: 100%;
 }
+
 .options{
    padding-left: 25%;
+   width: 100%;
 }
+
 .sesion{
    color: black;
    border: solid 1px #E2E2E2;
    border-radius: 10%;
 }
+
 .suscribete{
-    
    background-color: #CA0813;
    border-radius: 10%;
    margin-left: 6px;
    margin-right: 6px;
 }
+
 .suscribete>a{
    color:white !important;
 }
+
 .deportesA{
    color:white !important;
 }
+
 .busqueda{
    background-color: white;
-   margin-left: 50em;
-}
-.carousel{
-      margin-top: 55px;
-}
-#header{
-      background-color: #23272B;
-}
-#logo2{
-      background-color: goldenrod;
-      text-align: center;
-      width: 200px;
-      height: auto;
-      padding-top: 3px;
-}
-.slider2{
-      height: 50px;
-      justify-content: center;
-      margin-left: 0px;
-      margin-right: 0px;
-}
-#title{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#title h6{
-    color: #24A2B7;
+   padding-left: 10%;
+   width: 100%;
 }
 
-#auto{
-      border-radius: 6px;
-      width: 300px;
-      height: 100%;
+.busqueda>input{
+      margin-left: -45%;
+      margin-right: -30%;
+      width: 100%;
+}
+   
+.barra-equipos .equipos{
+    width: 85%;
+    margin: 0 auto;
 }
 
-  .jumbotron{
-    margin-top: 40px;
-  }
+.nombreAgenda{
+    font-size: 20px;
+}
 
-  footer{
-      background-color: #23272B;
-      color: white;
-      padding: 10px ;
-      text-align: center;
-  }
-  
+.enDirecto, .loMejor{
+    width: 40%;
+}
+
+.enDirecto .titulo, .loMejor .titulo{
+    font-size: 13px;
+    width: 30%;
+}
+
+.enDirecto .info, .loMejor .info{
+    font-size: 13px;
+    width: 70%;
+}
+
+.verMasDirectos a:hover{
+    cursor: pointer;
+}
+
+.primer-seccion-notas{
+    margin-top: 80px;
+}
+
+.notaPrincipal a{
+    color: #fff;
+}
+
+.tipoNota{
+    font-size: 12px;
+    top:0;
+    left:0;
+}
+
+.descripcionNota{
+    bottom:30px;
+    left: 20px;
+}
+
+.descripcionNota:hover{
+    text-decoration: underline;
+}
+
+.tituloNota{
+    font-size: 45px;
+}
+
+.subtituloNota{
+    font-size: 18px;
+}
+
+.autor-comentarios{
+    padding: 0;
+}
+
+.autor-comentarios .autor, 
+.autor-comentarios .comentarios,
+.fa-comment-alt{
+    font-size: 12px;
+    color: #4a4a4a;
+}
+
+.autor-comentarios .comentarios:hover .fa-comment-alt,
+.autor-comentarios .comentarios:hover{
+    color: #c00 !important;
+    cursor: pointer;
+}
+
+.notasSecundarias .nota .descripcionNota,
+.tercer-seccion-notas .nota .descripcionNota{
+    top: 0;
+}
+
+.notasSecundarias .nota .descripcionNota:hover,
+.tercer-seccion-notas .nota .descripcionNota:hover{
+    text-decoration: none;
+}
+
+.notasSecundarias .nota .descripcionNota .tipoNota,
+.tercer-seccion-notas .nota .descripcionNota .tipoNota{
+    font-size: 14px;
+
+}
+
+.notasSecundarias .nota .descripcionNota .tituloNota,
+.tercer-seccion-notas .nota .descripcionNota .tituloNota{
+    font-size: 16px;
+    color: #000;
+}
+
+.notasSecundarias .nota .descripcionNota:hover .tituloNota,
+.tercer-seccion-notas .nota .descripcionNota:hover .tituloNota{
+    color: #888888 !important;
+    text-decoration: none;
+}
+
+.segunda-seccion-notas .nota{
+    width: 30%;
+}
+
+.segunda-seccion-notas .nota a{
+    color: #000;
+}
+
+.segunda-seccion-notas .nota .tipoNota{
+    font-size: 12px;
+    color: #fff;
+    top:0;
+    left:0;
+}
+
+.segunda-seccion-notas .nota:hover .descripcionNota:hover .tituloNota{
+    color: #888888 !important;
+    text-decoration: none !important;
+}
+
+.segunda-seccion-notas .nota .tituloNota{
+    font-size: 20px;
+}
+
+.segunda-seccion-notas .nota .autor-comentarios .autor{
+    font-size: 12px;
+    color: #4a4a4a;
+}
+
+.tercer-seccion-notas .nota{
+    width: 25%;
+}
+
+footer{
+     background-color: #23272B;
+     color: white;
+     padding: 10px ;
+     text-align: center;
+}
+
+.Editorial{
+      border-bottom: solid 1px white;
+      padding-bottom: 1em;
+}
+
+footer ul{
+      list-style-type: none;
+      text-align: left;
+}
+
+#apartado{
+      padding-bottom: 2em;
+      padding-top: 1em;
+      font-weight: bold;
+}
